@@ -1,6 +1,6 @@
 name: Address
 
-on: [pull_request_target, issues, fork]
+on: [pull_request_target, issues]
 
 jobs:
   address:
@@ -14,3 +14,4 @@ jobs:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
         issue-message: "Thanks for reporting the issue. We will look over the issue as soon as possible."
         pr-message: "Thanks for your contribution. We will consider your request and make needful changes."
+     
